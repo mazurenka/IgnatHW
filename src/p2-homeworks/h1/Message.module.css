@@ -1,3 +1,31 @@
 .message {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.content {
+    padding: 10px;
+    border-radius: 5px 5px 5px 0;
+    background-color: antiquewhite;
+}
+
+.name {
+    font-weight: bold;
 
 }
+.text {
+
+}
+.time {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
